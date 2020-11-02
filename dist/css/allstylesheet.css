@@ -1,0 +1,5 @@
+@import "style.css"; /* Folha de estilo do usuário */
+@import "animacoes.css"; /* Usar esta tag para criar as animações da página */
+@import "swiper.min.css"; /* Swipper v4.0.7 - http://idangero.us/swiper/demos/ */
+@import "bootstrap.min.css"; /* Bootstrap v4.0.0.2 */
+@import "ie10-viewport-bug-workaround.min.css";
