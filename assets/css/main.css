@@ -1,14 +1,16 @@
 /*
-   
    Table Of Content
-   
+
    1. Global Style
-   2. Preloader
+   2. Helpful Classes
+   3. Preloader
    
- 
 */
 
-/* Global Style */
+/*=========== Global Style ============*/
+html {
+    scroll-behavior: smooth
+}
 
 body {
     font-size: 16px;
@@ -16,12 +18,17 @@ body {
     line-height: 24px;
     letter-spacing: 1px;
     height: 100%;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
-    height: 100%
+    height: 100%;
 }
 
 h1,
@@ -35,6 +42,7 @@ h6 {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 img {
@@ -61,6 +69,10 @@ li {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 fieldset {
     border: 0 none;
     margin: 0 auto;
@@ -71,7 +83,7 @@ fieldset {
     padding: 0
 }
 
-/* Preloader */
+/*=========== Preloader =============*/
 
 #preloader {
     position: fixed;
@@ -162,3 +174,148 @@ body.loaded #preloader {
     }
 }
 
+/* ======= HELPFUL CLASSES =========*/
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.google-plus {
+    background-color: #dd4b39;
+}
+
+.instagram {
+    background-color: #464545;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.pinterest {
+    background-color: #bd081c;
+}
+
+.youtube {
+    background-color: #cd201f;
+}
+
+.vimeo {
+    background-color: #1ab7ea;
+}
+
+.dribbble {
+    background-color: #ea4c89;
+}
+
+.behance {
+    background-color: #1769ff;
+}
+
+.flickr {
+    background-color: #ff0084;
+}
+
+.tumblr {
+    background-color: #35465c;
+}
+
+.foursquare {
+    background-color: #f94877;
+}
+
+.github {
+    background-color: #333333;
+}
+
+.skype {
+    background-color: #00aff0;
+}
+
+
+/* Colors */
+
+.color-1 {
+    color: #f306a0;
+}
+
+.color-2 {
+    color: #d60bfb;
+}
+
+.color-3 {
+    color: #d8be10;
+}
+
+.color-4 {
+    color: #0fd28a;
+}
+
+.color-5 {
+    color: #f97400;
+}
+
+.color-6 {
+    color: #08a6f3;
+}
+
+
+/* Background Color */
+
+.bg-color-1 {
+    background-color: #f306a0;
+}
+
+.bg-color-2 {
+    background-color: #d60bfb;
+}
+
+.bg-color-3 {
+    background-color: #d8be10;
+}
+
+.bg-color-4 {
+    background-color: #0fd28a;
+}
+
+.bg-color-5 {
+    background-color: #f97400;
+}
+
+.bg-color-6 {
+    background-color: #08a6f3;
+}
+
+
+/* Scroll To Top */
+
+.scroll-to-top {
+    background-color: #1B1F3B;
+    display: none;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+    z-index: 999;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:focus {
+    background-color: #1B1F3B;
+    color: #ffffff;
+}
+
+
+/*========= Header ==========*/
+header .home-section {
+    height: 100vh;
+}
