@@ -319,3 +319,16 @@ body.loaded #preloader {
 header .home-section {
     height: 100vh;
 }
+.navbar{
+    background-color: #2386ab;
+    padding: 30px 0px;
+    transition-duration: 0.6s;
+}
+.navbar ul li a{
+    color: #fff !important;
+}
+.scroll_navbar{
+    padding: 10px 0px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+}

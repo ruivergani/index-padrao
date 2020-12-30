@@ -44,7 +44,6 @@
 		
 
 
-       
        /* Scroll Naviagation Background Change with Sticky Navigation */
 		 
         $(window).on('scroll', function () {
@@ -56,7 +55,16 @@
         });
 		
 		
-		
+
+        /* Scroll Navigation Background Change with Sticky Navigation */
+        $(window).scroll(function(){
+            if($(window).scrollTop() <= 40){
+                $('.navbar').removeClass('scroll_navbar')
+            }else{
+                $('.navbar').addClass('scroll_navbar')
+            }
+        })
+        
 		
        /* Mobile Navigation Hide or Collapse on Click */
 		
